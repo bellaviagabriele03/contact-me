@@ -54,10 +54,10 @@ export default function ParticlesBG() {
             },
             particles: {
                 number: {
-                    value: 500,
+                    value: 90,
                     density: {
                         enable: true,
-                        area: 900,
+                        area: 800,
                     },
                 },
                 color: {
@@ -65,14 +65,14 @@ export default function ParticlesBG() {
                 },
                 links: {
                     enable: true,
-                    distance: 200,
+                    distance: 130,
                     color: "#00f5ff",
-                    opacity: 0.22,
-                    width: 2,
+                    opacity: 0.18,
+                    width: 1,
                 },
                 move: {
                     enable: true,
-                    speed: 0.8,
+                    speed: 0.45,
                     direction: "none",
                     random: true,
                     straight: false,
@@ -81,18 +81,18 @@ export default function ParticlesBG() {
                     },
                 },
                 opacity: {
-                    value: { min: 5, max: 10 },
+                    value: { min: 0.25, max: 0.75 },
                     animation: {
                         enable: true,
-                        speed: 0.4,
+                        speed: 0.3,
                         sync: false,
                     },
                 },
                 size: {
-                    value: { min: 1, max: 3 },
+                    value: { min: 1, max: 2.2 },
                     animation: {
                         enable: true,
-                        speed: 0.6,
+                        speed: 0.4,
                         sync: false,
                     },
                 },

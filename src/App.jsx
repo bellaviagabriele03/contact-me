@@ -50,7 +50,7 @@ function App() {
               {/* Email */}
               <a
                 href="mailto:bellaviagabriele03@gmail.com"
-                className="flex items-center justify-center gap-3 rounded-2xl border border-cyan-400/30 bg-cyan-500/10 px-4 py-3 text-sm font-medium text-white shadow-[0_0_20px_rgba(168,85,247,0.15)] transition hover:scale-[1.03] hover:bg-cyan-500/20"
+                className="flex items-center justify-center gap-3 rounded-2xl border border-violet-400/30 bg-violet-500/10 px-4 py-3 text-sm font-medium text-white shadow-[0_0_20px_rgba(139,92,246,0.18)]  transition hover:scale-[1.03] hover:bg-violet-500/20"
               >
                 <Mail size={18} />
                 Inviami una email
